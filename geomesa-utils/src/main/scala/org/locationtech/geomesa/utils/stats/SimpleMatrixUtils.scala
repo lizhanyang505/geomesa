@@ -12,6 +12,7 @@ import org.ejml.data.DenseMatrix64F
 import org.ejml.ops.CommonOps
 import org.ejml.simple.SimpleMatrix
 
+
 object SimpleMatrixUtils {
 
   implicit def toDenseMatrix64F(sm: SimpleMatrix): DenseMatrix64F = sm.getMatrix
